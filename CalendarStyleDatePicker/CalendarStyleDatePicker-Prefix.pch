@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CalendarStyleDatePicker' target in the 'CalendarStyleDatePicker' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
