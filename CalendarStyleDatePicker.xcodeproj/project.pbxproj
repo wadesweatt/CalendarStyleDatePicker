@@ -13,6 +13,8 @@
 		6557D460177E36D70080AA77 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6557D45E177E36D70080AA77 /* Credits.rtf */; };
 		6557D463177E36D70080AA77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557D462177E36D70080AA77 /* AppDelegate.m */; };
 		6557D466177E36D70080AA77 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6557D464177E36D70080AA77 /* MainMenu.xib */; };
+		6557D470177E36F10080AA77 /* RVDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557D46D177E36F10080AA77 /* RVDatePicker.m */; };
+		6557D471177E36F10080AA77 /* RVDatePickerExpandedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557D46F177E36F10080AA77 /* RVDatePickerExpandedWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		6557D461177E36D70080AA77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6557D462177E36D70080AA77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6557D465177E36D70080AA77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6557D46C177E36F10080AA77 /* RVDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVDatePicker.h; sourceTree = "<group>"; };
+		6557D46D177E36F10080AA77 /* RVDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVDatePicker.m; sourceTree = "<group>"; };
+		6557D46E177E36F10080AA77 /* RVDatePickerExpandedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVDatePickerExpandedWindow.h; sourceTree = "<group>"; };
+		6557D46F177E36F10080AA77 /* RVDatePickerExpandedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVDatePickerExpandedWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,10 @@
 			children = (
 				6557D461177E36D70080AA77 /* AppDelegate.h */,
 				6557D462177E36D70080AA77 /* AppDelegate.m */,
+				6557D46C177E36F10080AA77 /* RVDatePicker.h */,
+				6557D46D177E36F10080AA77 /* RVDatePicker.m */,
+				6557D46E177E36F10080AA77 /* RVDatePickerExpandedWindow.h */,
+				6557D46F177E36F10080AA77 /* RVDatePickerExpandedWindow.m */,
 				6557D464177E36D70080AA77 /* MainMenu.xib */,
 				6557D456177E36D70080AA77 /* Supporting Files */,
 			);
@@ -168,6 +178,8 @@
 			files = (
 				6557D45C177E36D70080AA77 /* main.m in Sources */,
 				6557D463177E36D70080AA77 /* AppDelegate.m in Sources */,
+				6557D470177E36F10080AA77 /* RVDatePicker.m in Sources */,
+				6557D471177E36F10080AA77 /* RVDatePickerExpandedWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

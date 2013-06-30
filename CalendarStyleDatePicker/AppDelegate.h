@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+@class RVDatePicker;
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate>
 
+@property (weak) IBOutlet RVDatePicker *datePicker;
 @property (assign) IBOutlet NSWindow *window;
 
 @end
